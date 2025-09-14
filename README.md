@@ -62,37 +62,27 @@ I enjoy combining **creative UI design** with **technical backend logic**, build
 
 ### AI Interview Platform
 **Description:** An AI-powered voice agent platform designed to simulate technical interviews using speech recognition and natural language processing.  
-**Tech Stack:** #Next.js #Vapi #Tailwind css #Firbase
-[Source Code](https://github.com/)
+**Tech Stack:** Next.js Vapi Tailwind css Firbase
+[Source Code]([https://github.com/](https://github.com/ganesh883/AI_Voice_Agent_Interview_Platform))
 
-### Job IT
-**Description:** Web app to search jobs, view salary ranges, and find positions near your location.  
+### MERN Login App with Authentication
+**Description:** Simple MERN Stack Login App with: User Registration & Login JWT Authentication OTP Verification for Password Reset Profile Update Feature Built with MongoDB, Express.js, React, and Node.js.  
 **Tech Stack:** React, REST API, SCSS  
 [Source Code](https://github.com/)
 
 ### Trip Guide
 **Description:** Travel booking platform for flights, hotels, and rental cars with curated recommendations.  
-**Tech Stack:** Next.js, Supabase, CSS  
-[Source Code](https://github.com/)  
+**Tech Stack:** #React #Mongodb #Express #node.js 
+[Source Code]([https://github.com/](https://github.com/ganesh883/MERN_Login_App_With_Authentication))  
 
 ---
 
 ## 🕸️ Experience
 
-- **React.js Developer** – Starbucks (March 2020 - April 2021)  
-- **React Native Developer** – Tesla (Jan 2021 - Feb 2022)  
-- **Web Developer** – Shopify (Jan 2022 - Jan 2023)  
-- **Full Stack Developer** – Meta (Jan 2023 - Present)  
+- **Senior System Engineer** – Infosys (August 2022 - October 2025)  
+- **Quality Assurance Analyst** – Infor (Jan 2025 - Currently Working)  
 
 *Worked on building responsive web applications, API integrations, and code architecture improvements.*
-
----
-
-## 🔗 Links
-
-- [Portfolio Website](#)  
-- [LinkedIn](#)  
-- [GitHub](#)  
 
 ---
 
