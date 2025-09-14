@@ -21,9 +21,8 @@ const Hero = () => {
 
             <p className={`${styles.heroSubText} mt-4 text-white-100 whitespace-nowrap`}>
             Tester-turned-developer with strong experience in building automation frameworks 
-            and ensuring software quality,
             <br />
-            now transitioning into backend development
+            and ensuring software quality, now transitioning into backend development
             <br />
             to build reliable and scalable systems.
           </p>
@@ -34,7 +33,7 @@ const Hero = () => {
       </div>
 
       {/* RIGHT SIDE - IMAGE (CANVAS) */}
-      <div className="md:w-1/2 w-full h-[400px] md:h-[600px] flex justify-center items-center">
+      <div className="md:w-1/2 w-full h-[400px] md:h-[600px] flex justify-center items-center mt-60">
         <ComputersCanvas />
       </div>
 

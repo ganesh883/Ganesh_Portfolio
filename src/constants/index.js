@@ -1,6 +1,15 @@
 import {
   mobile,
   backend,
+  Ganesh_Logo,
+  Infosys,
+  API,
+  githubs,
+  Java,
+  Database,
+  jenkins,
+  Express,
+  Infor,
   creator,
   web,
   javascript,
@@ -23,6 +32,10 @@ import {
   jobit,
   tripguide,
   threejs,
+  MERN_Project,
+  AI_Platform,
+  To_Do_App,
+  github,
 } from "../assets";
 
 export const navLinks = [
@@ -41,6 +54,11 @@ export const navLinks = [
 ];
 
 const services = [
+  
+  {
+    title: "Backend Developer",
+    icon: backend,
+  },
   {
     title: "Automation Tester",
     icon: web,
@@ -50,17 +68,12 @@ const services = [
     icon: mobile,
   },
   {
-    title: "Backend Developer",
-    icon: backend,
-  },
-  {
     title: "API Tester",
     icon: creator,
   },
-  {
-    title: "DSA",
-    icon: creator,
-  }
+
+  
+  
 ];
 
 const technologies = [
@@ -77,43 +90,47 @@ const technologies = [
     icon: javascript,
   },
   {
-    name: "TypeScript",
-    icon: typescript,
+    name: "Database",
+    icon: Database,
   },
   {
-    name: "React JS",
-    icon: reactjs,
+    name: "API",
+    icon: API,
   },
   {
-    name: "Redux Toolkit",
-    icon: redux,
+    name: "Git",
+    icon: git,
   },
   {
-    name: "Tailwind CSS",
+    name: "Github",
+    icon: githubs,
+  },
+  {
+    name: "Tailwind css",
     icon: tailwind,
   },
   {
-    name: "Node JS",
+    name: "Node.js",
     icon: nodejs,
+  },
+  {
+    name: "React.js",
+    icon: reactjs,
   },
   {
     name: "MongoDB",
     icon: mongodb,
   },
   {
-    name: "Three JS",
-    icon: threejs,
+    name: "Java",
+    icon: Java,
   },
   {
-    name: "git",
-    icon: git,
+    name: "Jenkins",
+    icon: jenkins,
   },
   {
-    name: "figma",
-    icon: figma,
-  },
-  {
-    name: "docker",
+    name: "Docker",
     icon: docker,
   },
 ];
@@ -122,28 +139,36 @@ const experiences = [
   {
     title: "System Engineer",
     company_name: "Infosys",
-    icon: starbucks,
+    icon: Infosys,
     iconBg: "#383E56",
     date: "August 2022 - October 2025",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Developed 90+ automated UI and API test scripts in Java and Selenium, improving test coverage and reducing manual effort.",
+      "Integrated automation scripts into Jenkins and Looper pipelines, accelerating deployment and sprint delivery.",
+      "Validated HR, Payroll, and other modules on mainframes; created 250+ reusable test cases ensuring defect-free releases.",
+      "Automated 95+ REST API endpoints using internal frameworks; delivered client demos and enhanced sprint completion rates.",
+      "Supported C to Go migration projects by validating backend programs and ensuring seamless production rollout.",
+      "Received multiple awards for excellence in automation and QA, including RISE Awards (Rookie of the Quarter, Tech Domain Maestro) and IQE Annual Honor Awards.",
+      "Built a 'Kafka Data Validation' artifact to ensure reliable data processing across pipelines.",
+      "Worked in Agile teams using Jira; collaborated across testing, development, and deployment teams to ensure high-quality delivery.",
     ],
   },
   {
     title: "Quality Assurance Analyst",
     company_name: "Infor",
-    icon: tesla,
+    icon: Infor,
     iconBg: "#E6DEDD",
     date: "Jan 2025 - Currently Working",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
+    "Designed and implemented automated test scripts for multiple product releases, ensuring reliable and efficient QA processes.",
+    "Maintained and updated automation scripts for every release, improving test reusability and reducing regression effort.",
+    "Closely collaborated with developers to understand features and backend logic, contributing to faster issue resolution and feature validation.",
+    "Tested cross-product features for each release, gaining in-depth understanding of product architecture and workflows.",
+    "Analyzed manual test cases to identify automation opportunities, bridging QA processes with development efficiency.",
+    "Actively participated in product discussions and feature walkthroughs, providing insights from testing to enhance development quality.",
+    "Gained strong understanding of full product lifecycle in a product-based environment, including backend workflows and feature dependencies.",
+    "Applied programming and automation skills to streamline testing pipelines, simulating real-world scenarios and validating APIs.",
+        ],
   }
   
 ];
@@ -179,65 +204,73 @@ const projects = [
   {
     name: "MERN App Login Authentication",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Simple MERN Stack Login App with: User Registration & Login JWT Authentication OTP Verification for Password Reset Profile Update Feature Built with MongoDB, Express.js, React, and Node.js.",
     tags: [
       {
-        name: "react",
+        name: "React",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "Mongodb",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "Express",
         color: "pink-text-gradient",
       },
+      {
+        name: "node.js",
+        color: "green-text-gradient",
+      },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: MERN_Project,
+    source_code_link: "https://github.com/ganesh883/MERN_Login_App_With_Authentication",
   },
   {
     name: "AI Interview Platform",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "An AI-powered mock interview platform built using Next.js and Vapi AI that simulates real-time interviews, provides instant feedback, and helps users improve their communication, confidence, and technical skills through personalized practice sessions..",
     tags: [
       {
-        name: "react",
+        name: "Next.js",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "Vapi",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "Tailwind css",
         color: "pink-text-gradient",
       },
+      {
+        name: "Firbase",
+        color: "green-text-gradient",
+      },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: AI_Platform,
+    source_code_link: "https://github.com/ganesh883/AI_Voice_Agent_Interview_Platform",
   },
   {
     name: "To Do App",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "This is a simple To-Do application that allows users to add and delete tasks. It's designed to help manage daily tasks in a clean and easy-to-use interface. This project was built as a beginner-level exercise to practice basic frontend development skills.",
     tags: [
       {
-        name: "nextjs",
+        name: "HTML",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "CSS",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "JavaScript",
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: To_Do_App,
+    source_code_link: "https://github.com/ganesh883/To_Do_App",
   },
 ];
 
