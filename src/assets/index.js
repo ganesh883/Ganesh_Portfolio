@@ -30,7 +30,7 @@ import threejs from "./tech/threejs.svg";
 
 import meta from "./company/meta.png";
 import Infosys from "./company/Infosys.webp";
-import Infor from "./company/Infor.webp";
+import Infor from "./company/infor.webp";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";

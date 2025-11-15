@@ -71,6 +71,23 @@ const services = [
     title: "API Tester",
     icon: creator,
   },
+  {
+    title: "Java",
+    icon: creator,
+  },
+  {
+    title: "DSA",
+    icon: creator,
+  },
+  {
+    title: "Devops & Tools",
+    icon: creator,
+  },
+  {
+    title: "SDET",
+    icon: creator,
+  }
+
 
   
   
@@ -137,21 +154,21 @@ const technologies = [
 
 const experiences = [
   {
-    title: "System Engineer",
+    title: "Senior System Engineer",
     company_name: "Infosys",
     icon: Infosys,
     iconBg: "#383E56",
-    date: "August 2022 - October 2025",
+    date: "August 2022 - December 2025",
     points: [
-      "Developed 90+ automated UI and API test scripts in Java and Selenium, improving test coverage and reducing manual effort.",
-      "Integrated automation scripts into Jenkins and Looper pipelines, accelerating deployment and sprint delivery.",
-      "Validated HR, Payroll, and other modules on mainframes; created 250+ reusable test cases ensuring defect-free releases.",
-      "Automated 95+ REST API endpoints using internal frameworks; delivered client demos and enhanced sprint completion rates.",
-      "Supported C to Go migration projects by validating backend programs and ensuring seamless production rollout.",
-      "Received multiple awards for excellence in automation and QA, including RISE Awards (Rookie of the Quarter, Tech Domain Maestro) and IQE Annual Honor Awards.",
-      "Built a 'Kafka Data Validation' artifact to ensure reliable data processing across pipelines.",
-      "Worked in Agile teams using Jira; collaborated across testing, development, and deployment teams to ensure high-quality delivery.",
-    ],
+      "Developed 90+ automated UI and API test scripts using Java, Selenium, and REST Assured, improving test coverage and reducing manual effort by 40%.",
+      "Integrated automation suites with Jenkins and Looper CI/CD pipelines, accelerating sprint delivery and reducing deployment delays.",
+      "Validated HR, Payroll, and Mainframe-based modules; authored 250+ reusable test cases ensuring stable, defect-free releases.",
+      "Automated 95+ REST API endpoints using in-house frameworks and delivered client demos, contributing to improved sprint completion rates.",
+      "Supported system modernization by validating backend logic during C-to-Go migration, ensuring error-free production rollout.",
+      "Built a Kafka Data Validation utility for cross-pipeline data reliability, helping teams detect faulty messages early.",
+      "Received multiple awards including RISE Awards (Rookie of the Quarter, Tech Domain Maestro) and IQE Annual Honor Awards for excellence in automation.",
+      "Collaborated within Agile teams using Jira and cross-functional workflows to maintain high-quality releases.",
+    ]    
   },
   {
     title: "Quality Assurance Analyst",
@@ -160,15 +177,16 @@ const experiences = [
     iconBg: "#E6DEDD",
     date: "Jan 2025 - Currently Working",
     points: [
-    "Designed and implemented automated test scripts for multiple product releases, ensuring reliable and efficient QA processes.",
-    "Maintained and updated automation scripts for every release, improving test reusability and reducing regression effort.",
-    "Closely collaborated with developers to understand features and backend logic, contributing to faster issue resolution and feature validation.",
-    "Tested cross-product features for each release, gaining in-depth understanding of product architecture and workflows.",
-    "Analyzed manual test cases to identify automation opportunities, bridging QA processes with development efficiency.",
-    "Actively participated in product discussions and feature walkthroughs, providing insights from testing to enhance development quality.",
-    "Gained strong understanding of full product lifecycle in a product-based environment, including backend workflows and feature dependencies.",
-    "Applied programming and automation skills to streamline testing pipelines, simulating real-world scenarios and validating APIs.",
-        ],
+      "Designed and implemented automation scripts for multiple product releases, ensuring stable and repeatable QA processes.",
+      "Enhanced script reusability by maintaining and optimizing automation suites each release, reducing regression effort.",
+      "Collaborated closely with developers to understand backend logic and feature workflows, enabling faster defect resolution.",
+      "Tested cross-product functionality and gained strong understanding of product architecture, integrations, and lifecycle.",
+      "Analyzed and converted manual cases into automated flows, bridging QA gaps and improving development efficiency.",
+      "Participated in feature discussions and walkthroughs, contributing testing insights to improve product quality.",
+      "Worked across backend and API validation to simulate real user scenarios and validate critical workflows.",
+      "Applied programming expertise to streamline testing pipelines and support high-quality, on-schedule releases.",
+    ]
+    
   }
   
 ];
@@ -252,20 +270,20 @@ const projects = [
     source_code_link: "https://github.com/ganesh883/AI_Voice_Agent_Interview_Platform",
   },
   {
-    name: "To Do App",
+    name: "Product Management Service",
     description:
-      "This is a simple To-Do application that allows users to add and delete tasks. It's designed to help manage daily tasks in a clean and easy-to-use interface. This project was built as a beginner-level exercise to practice basic frontend development skills.",
+      "Developed a backend microservice in Java using Maven to manage product operations including create, read, update, and delete. Implemented a modular project structure following best practices, with REST API integration, database persistence.",
     tags: [
       {
-        name: "HTML",
+        name: "Java",
         color: "blue-text-gradient",
       },
       {
-        name: "CSS",
+        name: "Springboot",
         color: "green-text-gradient",
       },
       {
-        name: "JavaScript",
+        name: "RESTful API Design",
         color: "pink-text-gradient",
       },
     ],

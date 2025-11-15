@@ -44,13 +44,15 @@ const About = () => {
       </motion.div>
 
       <motion.p
-        variants={fadeIn("", "", 0.1, 1)}
-        className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
+        variants={fadeIn("", "", 0.3, 1)}
+        className='mt-4 text-secondary text-[17px] max-w-6xl leading-[30px]'
       >
-        I'm an experienced QA and automation professional with a strong background 
-        in testing, API automation, and CI/CD pipelines. Recently, my interest in 
-        coding led me to join Scaler, where I’m upskilling myself in backend development 
-        and building full-stack projects to transition into a developer role
+         I’m a QA and automation engineer with 3+ years of experience in testing, API automation, UI automation, and building scalable test frameworks.
+          My work has always been engineering-focused—writing automation code, analyzing backend flows, and improving system reliability.
+        <br/>
+        <br/> 
+        Driven by a deeper interest in development, I joined Scaler Academy where I’ve been upskilling in backend engineering, learning Java, Spring Boot,
+        databases, and system design fundamentals. I’ve also built multiple hands-on projects to strengthen my development skills.
       </motion.p>
 
       <div className='mt-20 flex flex-wrap gap-10'>

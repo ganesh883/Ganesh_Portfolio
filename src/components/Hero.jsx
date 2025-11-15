@@ -6,12 +6,12 @@ const Hero = () => {
   return (
     <section className="relative w-full h-screen mx-auto flex flex-col md:flex-row items-center justify-center">
       
-      {/* LEFT SIDE - TEXT */}
+      
       <div className="flex flex-col md:w-1/2 w-full px-6 md:px-12">
-        <div className="flex flex-row items-start gap-5">
-          <div className="flex flex-col justify-center items-center mt-5">
-            <div className="w-5 h-5 rounded-full bg-[#915EFF]" />
-            <div className="w-1 sm:h-80 h-40 violet-gradient" />
+        <div className="flex flex-row items-start gap-10">
+          <div className="flex flex-col justify-center items-center mt-12">
+            <div className="w-5 h-10 rounded-full bg-[#915EFF]" />
+            <div className="w-1 sm:h-80 h-100 violet-gradient" />
           </div>
 
           <div>
@@ -20,11 +20,13 @@ const Hero = () => {
             </h1>
 
             <p className={`${styles.heroSubText} mt-4 text-white-100 whitespace-nowrap`}>
-            Tester-turned-developer with strong experience in building automation frameworks 
-            <br />
-            and ensuring software quality, now transitioning into backend development
-            <br />
-            to build reliable and scalable systems.
+            Driven engineer with 3+ years of experience building automation frameworks and improving software quality.
+            <br/>
+            Currently transitioning into backend development after completing the backend curriculum at Scaler Academy,
+             <br/>
+             where I built multiple real-world projects. Passionate about solving engineering challenges, 
+              <br/>
+              designing scalable systems, and contributing directly as a backend developer.
           </p>
 
 
