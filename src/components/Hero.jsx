@@ -47,7 +47,12 @@ const Hero = () => {
               transition={{ duration: 1.5, repeat: Infinity, repeatType: "loop" }}
               className="w-3 h-3 rounded-full bg-secondary mb-1"
             />
+           
           </div>
+
+          <p className="text-white/70 text-sm mt-1 tracking-wide">
+      Scroll ↓
+    </p>
         </a>
       </div>
 
