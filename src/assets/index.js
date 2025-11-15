@@ -37,7 +37,7 @@ import tesla from "./company/tesla.png";
 
 import carrent from "./carrent.png";
 import MERN_Project from "./MERN_APP_Project.png";
-import AI_Platform from "./AI_MOCK_Interview_Platform.png";
+import AI_Platform from "./ai_mock_interview_platform.png";
 import To_Do_App from "./To_Do_App.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
