@@ -60,10 +60,10 @@ I enjoy combining **creative UI design** with **technical backend logic**, build
 **Tech Stack:** React, REST API, SCSS  
 [Source Code](https://github.com/)
 
-### Trip Guide
-**Description:** Travel booking platform for flights, hotels, and rental cars with curated recommendations.  
-**Tech Stack:** #React #Mongodb #Express #node.js 
-[Source Code]([https://github.com/](https://github.com/ganesh883/MERN_Login_App_With_Authentication))  
+### Product Service (Microservice)
+**Description:** ProductService is a backend application that manages product data, providing APIs for creating, reading, updating, and deleting products efficiently. It ensures smooth data handling and reliable service integration for web applications..  
+**Tech Stack:** #Java #SpringBoot 
+[Source Code](https://github.com/ganesh883/ProductService)  
 
 ---
 
