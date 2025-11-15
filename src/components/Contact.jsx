@@ -62,7 +62,7 @@ const Contact = () => {
     <div className="xl:mt-12 flex xl:flex-row flex-col gap-10 overflow-hidden">
       
       {/* LEFT: Contact Form */}
-        <motion.div
+        {/* <motion.div
       variants={slideIn("left", "tween", 0.2, 1)}
       className="flex-1 bg-black-100 p-8 rounded-2xl"
     >
@@ -115,7 +115,7 @@ const Contact = () => {
             {loading ? "Sending..." : "Send"}
           </button>
         </form>
-      </motion.div>
+      </motion.div> */}
 
         {/* RIGHT: Social / Contact Links */}
         <motion.div
