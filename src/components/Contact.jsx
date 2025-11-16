@@ -159,7 +159,7 @@ const Contact = () => {
         </div>
 
         <a
-          href="/Ganesh_Resume.pdf"
+          href="/Ganesh_SDE.pdf"
           download
           className="flex items-center gap-3 text-white hover:text-secondary"
         >
